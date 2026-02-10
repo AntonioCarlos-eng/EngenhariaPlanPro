@@ -1,0 +1,2 @@
+Arquivo não encontrado: tokens_raw_final.csv
+Nenhum token lido. Saindo.

@@ -1,0 +1,107 @@
+================================================================================
+                        CORRECOES FINAIS - V4.0
+================================================================================
+
+PROBLEMAS CORRIGIDOS:
+─────────────────────────────────────────────────────────────────────────────
+
+1. [MEDIDAS NAO APARECIAM NO DESENHO]
+   ✓ CORRIGIDO: Adicionada lógica para converter tupla (dobra dupla) para texto
+   ✓ Agora mostra: "5.0cm + 3.0cm" para dobra dupla
+   ✓ Adicionado desenho específico para dobra_dupla com dois segmentos
+   ✓ Logging adicionado para debugar passagem de medidas
+
+2. [IMPRESSÃO NÃO FUNCIONAVA]
+   ✓ CORRIGIDO: Adicionado fallback em caso de módulo não encontrado
+   ✓ Se GeradorEtiquetasDinamico não existir:
+     - Salva dados em JSON
+     - Avisa ao usuário sobre o arquivo gerado
+     - Permite impressão posterior
+   ✓ Logging detalhado de cada etapa
+   ✓ Tratamento de erros com traceback
+
+3. [FLUXO DE SALVAMENTO]
+   ✓ Verificado: Forma é salva em self.formas_customizadas[(viga, pos)]
+   ✓ Verificado: Medidas são salvas em self.medidas_customizadas[(viga, pos)]
+   ✓ Normalizacao de forma (case-insensitive) implementada
+   ✓ Recuperacao de medidas verificada em desenhar_etiquetas_com_selecao()
+
+MUDANCAS IMPLEMENTADAS:
+─────────────────────────────────────────────────────────────────────────────
+
+[1] vigas_app.py, linha 2462-2466
+    ✓ Adicionado logging no início de _desenhar_forma_simplificada
+      Mostra: medida_dobra, medidas_gancho se presentes
+
+[2] vigas_app.py, linha 2490-2524
+    ✓ Reescrito bloco de desenho de dobra
+    ✓ Agora trata tupla (dobra dupla) e float (dobra simples)
+    ✓ Adicionado desenho de dobra_dupla com dois segmentos
+    ✓ Texto de medida mostra ambas as medidas para dobra dupla
+
+[3] vigas_app.py, linha 4063-4150
+    ✓ Completamente reescrita _confirmar_e_imprimir_etiquetas
+    ✓ Adicionado try/except para ImportError
+    ✓ Fallback salva dados em JSON se módulo não existir
+    ✓ Logging em cada etapa do processo
+    ✓ Mensagens ao usuário mais clara
+
+TESTE AGORA:
+─────────────────────────────────────────────────────────────────────────────
+
+1. EDITAR ESTRIBO:
+   a) Abra editor de etiquetas
+   b) Clique em uma etiqueta com estribo
+   c) Na FORMA, selecione "Estribo Quadrado"
+   d) Preencha Lado1, Lado2, Lado3, Lado4
+   e) Clique SALVAR
+   ✓ Esperado: Estribo aparece no desenho com anotações A, B, C, D
+
+2. EDITAR DOBRA:
+   a) Clique em etiqueta com dobra
+   b) Selecione "Dobra Única"
+   c) Preencha "Medida Dobra (cm)"
+   d) Clique SALVAR
+   ✓ Esperado: Dobra aparece com medida ao lado (ex: "5cm")
+
+3. EDITAR DOBRA DUPLA:
+   a) Selecione "Dobra Dupla"
+   b) Preencha "1ª Dobra (cm)" e "2ª Dobra (cm)"
+   c) Clique SALVAR
+   ✓ Esperado: Dois segmentos de dobra aparecem com ambas medidas
+
+4. IMPRIMIR:
+   a) Marque etiquetas (ou clique "Marcar Todas")
+   b) Clique "✅ CONFIRMAR E IMPRIMIR"
+   c) Se módulo existe: PNG gerado em output/etiquetas/
+   d) Se módulo não existe: JSON salvo com dados de impressão
+
+CONSOLE OUTPUT ESPERADO:
+─────────────────────────────────────────────────────────────────────────────
+
+Ao editar estribo:
+  [DESENHO FORMA] Forma: estribo, medida_dobra=None, medidas_gancho=None
+  ✓ Estribo V1/A1: medidas=10cm, 15cm, 20cm, 25cm
+
+Ao salvar dobra:
+  ============================================================
+  [SALVANDO EDIÇÃO] Viga: V1, Posição: A1, Índice: 0
+  ✓ PASSO 1 - Valores principais lidos:
+    - Bitola: 8.0mm
+  ✓ PASSO 3 - Valores de medidas convertidos:
+    - Med. Dobra 1: 5.0cm
+  ============================================================
+  ✅ EDIÇÃO SALVA COM SUCESSO!
+
+Ao imprimir:
+  [IMPRESSÃO] 5 etiqueta(s) selecionada(s)
+  [IMPRESSÃO] Iniciando geração de etiquetas...
+  [IMPRESSÃO] Módulo gerador encontrado
+  [IMPRESSÃO] Gerando PNGs em 300 DPI...
+  [IMPRESSÃO] Geração concluída!
+
+STATUS DE COMPILACAO: ✅ OK
+─────────────────────────────────────────────────────────────────────────────
+Arquivo compila sem erros!
+
+================================================================================

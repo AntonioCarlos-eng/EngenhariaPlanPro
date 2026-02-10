@@ -1,0 +1,633 @@
+Total tokens extraídos: 1870
+
+==== GRUPO VIGA: V10 tokens[3:65] ====
+[3] (8.548,46.312) 'B36'
+      win: 'B36 | B33 | Corte A | A | A | Corte B | B | B'
+      features: POS= BIT=36 XQTY= N_PAREN= C= CA= DISTRIB=False
+[4] (18.553,46.075) 'B33'
+      win: 'B33 | Corte A | A | A | Corte B | B | B | 80'
+      features: POS= BIT=33 XQTY= N_PAREN= C= CA= DISTRIB=False
+[5] (22.108,54.933) 'Corte A'
+      win: 'Corte A | A | A | Corte B | B | B | 80 | 18'
+      features: POS= BIT=80 XQTY= N_PAREN= C= CA= DISTRIB=False
+[6] (6.09,45.966) 'A'
+      win: 'A | A | Corte B | B | B | 80 | 18 | N1'
+      features: POS=N1 BIT=80 XQTY= N_PAREN= C= CA= DISTRIB=False
+[7] (6.09,51.361) 'A'
+      win: 'A | Corte B | B | B | 80 | 18 | N1 | %%C 20'
+      features: POS=N1 BIT=80 XQTY= N_PAREN= C= CA= DISTRIB=False
+[8] (30.008,54.933) 'Corte B'
+      win: 'Corte B | B | B | 80 | 18 | N1 | %%C 20 | C=607'
+      features: POS=N1 BIT=80 XQTY= N_PAREN= C=607 CA= DISTRIB=False
+[9] (11.411,45.966) 'B'
+      win: 'B | B | 80 | 18 | N1 | %%C 20 | C=607 | 2x13'
+      features: POS=N1 BIT=80 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[10] (11.411,51.361) 'B'
+      win: 'B | 80 | 18 | N1 | %%C 20 | C=607 | 2x13 | N6'
+      features: POS=N1 BIT=80 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[11] (4.916,53.784) '80'
+      win: '80 | 18 | N1 | %%C 20 | C=607 | 2x13 | N6 | %%C 8'
+      features: POS=N1 BIT=80 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[12] (8.695,54.921) '18'
+      win: '18 | N1 | %%C 20 | C=607 | 2x13 | N6 | %%C 8 | C=94'
+      features: POS=N1 BIT=18 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[13] (9.355,54.921) 'N1'
+      win: 'N1 | %%C 20 | C=607 | 2x13 | N6 | %%C 8 | C=94 | 76'
+      features: POS=N1 BIT=1 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[14] (10.015,54.921) '%%C 20'
+      win: '%%C 20 | C=607 | 2x13 | N6 | %%C 8 | C=94 | 76 | 73'
+      features: POS=N6 BIT=20 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[15] (11.115,54.921) 'C=607'
+      win: 'C=607 | 2x13 | N6 | %%C 8 | C=94 | 76 | 73 | 10x2'
+      features: POS=N6 BIT=60 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[16] (4.776,44.274) '2x13'
+      win: '2x13 | N6 | %%C 8 | C=94 | 76 | 73 | 10x2 | N3'
+      features: POS=N6 BIT=2 XQTY=13 N_PAREN= C=94 CA= DISTRIB=False
+[17] (5.876,44.274) 'N6'
+      win: 'N6 | %%C 8 | C=94 | 76 | 73 | 10x2 | N3 | %%C 10'
+      features: POS=N6 BIT=6 XQTY=2 N_PAREN= C=94 CA= DISTRIB=False
+[18] (6.536,44.274) '%%C 8'
+      win: '%%C 8 | C=94 | 76 | 73 | 10x2 | N3 | %%C 10 | C=225'
+      features: POS=N3 BIT=8 XQTY=2 N_PAREN= C=94 CA= DISTRIB=False
+[19] (5.41,43.911) 'C=94'
+      win: 'C=94 | 76 | 73 | 10x2 | N3 | %%C 10 | C=225 | 10X2 %%C 10'
+      features: POS=N3 BIT=94 XQTY=2 N_PAREN= C=94 CA= DISTRIB=False
+[20] (5.006,51.974) '76'
+      win: '76 | 73 | 10x2 | N3 | %%C 10 | C=225 | 10X2 %%C 10 | 2x13'
+      features: POS=N3 BIT=76 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[21] (4.907,52.403) '73'
+      win: '73 | 10x2 | N3 | %%C 10 | C=225 | 10X2 %%C 10 | 2x13 | N7'
+      features: POS=N3 BIT=73 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[22] (5.72,52.815) '10x2'
+      win: '10x2 | N3 | %%C 10 | C=225 | 10X2 %%C 10 | 2x13 | N7 | %%C 8'
+      features: POS=N3 BIT=10 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[23] (6.82,52.815) 'N3'
+      win: 'N3 | %%C 10 | C=225 | 10X2 %%C 10 | 2x13 | N7 | %%C 8 | C=304'
+      features: POS=N3 BIT=3 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[24] (7.48,52.815) '%%C 10'
+      win: '%%C 10 | C=225 | 10X2 %%C 10 | 2x13 | N7 | %%C 8 | C=304 | 24'
+      features: POS=N7 BIT=10 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[25] (6.41,52.411) 'C=225'
+      win: 'C=225 | 10X2 %%C 10 | 2x13 | N7 | %%C 8 | C=304 | 24 | 7'
+      features: POS=N7 BIT=22 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[26] (5.58,48.766) '10X2 %%C 10'
+      win: '10X2 %%C 10 | 2x13 | N7 | %%C 8 | C=304 | 24 | 7 | N2'
+      features: POS=N7 BIT=10 XQTY=2 N_PAREN= C=304 CA= DISTRIB=False
+[27] (9.138,44.248) '2x13'
+      win: '2x13 | N7 | %%C 8 | C=304 | 24 | 7 | N2 | %%C 20'
+      features: POS=N7 BIT=2 XQTY=13 N_PAREN= C=304 CA= DISTRIB=False
+[28] (10.238,44.248) 'N7'
+      win: 'N7 | %%C 8 | C=304 | 24 | 7 | N2 | %%C 20 | C=511'
+      features: POS=N7 BIT=7 XQTY= N_PAREN= C=304 CA= DISTRIB=False
+[29] (10.898,44.248) '%%C 8'
+      win: '%%C 8 | C=304 | 24 | 7 | N2 | %%C 20 | C=511 | COLOCAR N1 POR'
+      features: POS=N2 BIT=8 XQTY= N_PAREN= C=304 CA= DISTRIB=False
+[30] (11.778,44.248) 'C=304'
+      win: 'C=304 | 24 | 7 | N2 | %%C 20 | C=511 | COLOCAR N1 POR | DENTRO DOS FERROS'
+      features: POS=N2 BIT=30 XQTY= N_PAREN= C=304 CA= DISTRIB=False
+[31] (7.999,44.124) '24'
+      win: '24 | 7 | N2 | %%C 20 | C=511 | COLOCAR N1 POR | DENTRO DOS FERROS | 120'
+      features: POS=N2 BIT=24 XQTY= N_PAREN= C=511 CA= DISTRIB=False
+[32] (8.898,43.138) '7'
+      win: '7 | N2 | %%C 20 | C=511 | COLOCAR N1 POR | DENTRO DOS FERROS | 120 | 73'
+      features: POS=N2 BIT=7 XQTY= N_PAREN= C=511 CA= DISTRIB=False
+[33] (9.338,43.138) 'N2'
+      win: 'N2 | %%C 20 | C=511 | COLOCAR N1 POR | DENTRO DOS FERROS | 120 | 73 | (4R)'
+      features: POS=N2 BIT=2 XQTY= N_PAREN= C=511 CA= DISTRIB=False
+[34] (9.998,43.138) '%%C 20'
+      win: '%%C 20 | C=511 | COLOCAR N1 POR | DENTRO DOS FERROS | 120 | 73 | (4R) | 22'
+      features: POS=N1 BIT=20 XQTY= N_PAREN= C=511 CA= DISTRIB=False
+[35] (11.098,43.138) 'C=511'
+      win: 'C=511 | COLOCAR N1 POR | DENTRO DOS FERROS | 120 | 73 | (4R) | 22 | %%C 8'
+      features: POS=N1 BIT=51 XQTY= N_PAREN= C=511 CA= DISTRIB=False
+[36] (14.257,54.872) 'COLOCAR N1 POR'
+      win: 'COLOCAR N1 POR | DENTRO DOS FERROS | 120 | 73 | (4R) | 22 | %%C 8 | C/12'
+      features: POS=N1 BIT=1 XQTY= N_PAREN= C= CA= DISTRIB=True
+[37] (14.257,54.515) 'DENTRO DOS FERROS'
+      win: 'DENTRO DOS FERROS | 120 | 73 | (4R) | 22 | %%C 8 | C/12 | N5'
+      features: POS=N5 BIT=12 XQTY= N_PAREN= C= CA= DISTRIB=True
+[38] (28.748,46.883) '120'
+      win: '120 | 73 | (4R) | 22 | %%C 8 | C/12 | N5 | (256)'
+      features: POS=N5 BIT=12 XQTY= N_PAREN= C= CA= DISTRIB=True
+[39] (30.105,49.723) '73'
+      win: '73 | (4R) | 22 | %%C 8 | C/12 | N5 | (256) | 2x22'
+      features: POS=N5 BIT=73 XQTY=22 N_PAREN= C= CA= DISTRIB=True
+[40] (10.478,50.596) '(4R)'
+      win: '(4R) | 22 | %%C 8 | C/12 | N5 | (256) | 2x22 | N5'
+      features: POS=N5 BIT=4 XQTY=22 N_PAREN= C= CA= DISTRIB=True
+[41] (9.708,50.266) '22'
+      win: '22 | %%C 8 | C/12 | N5 | (256) | 2x22 | N5 | %%C 8'
+      features: POS=N5 BIT=22 XQTY=22 N_PAREN= C= CA= DISTRIB=True
+[42] (10.368,50.266) '%%C 8'
+      win: '%%C 8 | C/12 | N5 | (256) | 2x22 | N5 | %%C 8 | C=401'
+      features: POS=N5 BIT=8 XQTY=22 N_PAREN= C=401 CA= DISTRIB=True
+[43] (11.248,50.266) 'C/12'
+      win: 'C/12 | N5 | (256) | 2x22 | N5 | %%C 8 | C=401 | 120'
+      features: POS=N5 BIT=12 XQTY=22 N_PAREN= C=401 CA= DISTRIB=True
+[44] (10.038,49.936) 'N5'
+      win: 'N5 | (256) | 2x22 | N5 | %%C 8 | C=401 | 120 | 73'
+      features: POS=N5 BIT=5 XQTY=22 N_PAREN= C=401 CA= DISTRIB=False
+[45] (10.698,49.936) '(256)'
+      win: '(256) | 2x22 | N5 | %%C 8 | C=401 | 120 | 73 | (4R)'
+      features: POS=N5 BIT=25 XQTY=22 N_PAREN= C=401 CA= DISTRIB=False
+[46] (29.188,43.703) '2x22'
+      win: '2x22 | N5 | %%C 8 | C=401 | 120 | 73 | (4R) | 6'
+      features: POS=N5 BIT=2 XQTY=22 N_PAREN= C=401 CA= DISTRIB=False
+[47] (30.288,43.703) 'N5'
+      win: 'N5 | %%C 8 | C=401 | 120 | 73 | (4R) | 6 | %%C 12.5'
+      features: POS=N5 BIT=5 XQTY= N_PAREN= C=401 CA= DISTRIB=False
+[48] (30.948,43.703) '%%C 8'
+      win: '%%C 8 | C=401 | 120 | 73 | (4R) | 6 | %%C 12.5 | C/12'
+      features: POS= BIT=8 XQTY= N_PAREN= C=401 CA= DISTRIB=True
+[49] (31.828,43.703) 'C=401'
+      win: 'C=401 | 120 | 73 | (4R) | 6 | %%C 12.5 | C/12 | N4'
+      features: POS=N4 BIT=40 XQTY= N_PAREN= C=401 CA= DISTRIB=True
+[50] (20.848,46.883) '120'
+      win: '120 | 73 | (4R) | 6 | %%C 12.5 | C/12 | N4 | (72)'
+      features: POS=N4 BIT=12 XQTY= N_PAREN= C= CA= DISTRIB=True
+[51] (22.205,49.723) '73'
+      win: '73 | (4R) | 6 | %%C 12.5 | C/12 | N4 | (72) | 2x6'
+      features: POS=N4 BIT=73 XQTY=6 N_PAREN= C= CA= DISTRIB=True
+[52] (5.289,50.776) '(4R)'
+      win: '(4R) | 6 | %%C 12.5 | C/12 | N4 | (72) | 2x6 | N4'
+      features: POS=N4 BIT=4 XQTY=6 N_PAREN= C= CA= DISTRIB=True
+[53] (4.832,50.467) '6'
+      win: '6 | %%C 12.5 | C/12 | N4 | (72) | 2x6 | N4 | %%C 12.5'
+      features: POS=N4 BIT=6 XQTY=6 N_PAREN= C= CA= DISTRIB=True
+[54] (5.272,50.467) '%%C 12.5'
+      win: '%%C 12.5 | C/12 | N4 | (72) | 2x6 | N4 | %%C 12.5 | C=410'
+      features: POS=N4 BIT=12.5 XQTY=6 N_PAREN= C=410 CA= DISTRIB=True
+[55] (5.236,50.169) 'C/12'
+      win: 'C/12 | N4 | (72) | 2x6 | N4 | %%C 12.5 | C=410 | 115X125'
+      features: POS=N4 BIT=12 XQTY=6 N_PAREN= C=410 CA= DISTRIB=True
+[56] (5.513,49.867) 'N4'
+      win: 'N4 | (72) | 2x6 | N4 | %%C 12.5 | C=410 | 115X125 | DO BLOCO B33'
+      features: POS=N4 BIT=4 XQTY=6 N_PAREN= C=410 CA= DISTRIB=False
+[57] (5.368,49.59) '(72)'
+      win: '(72) | 2x6 | N4 | %%C 12.5 | C=410 | 115X125 | DO BLOCO B33 | (costela)'
+      features: POS=N4 BIT=72 XQTY=6 N_PAREN= C=410 CA= DISTRIB=False
+[58] (21.068,43.703) '2x6'
+      win: '2x6 | N4 | %%C 12.5 | C=410 | 115X125 | DO BLOCO B33 | (costela)'
+      features: POS=N4 BIT=2 XQTY=6 N_PAREN= C=410 CA= DISTRIB=False
+[59] (21.948,43.703) 'N4'
+      win: 'N4 | %%C 12.5 | C=410 | 115X125 | DO BLOCO B33 | (costela)'
+      features: POS=N4 BIT=4 XQTY=125 N_PAREN= C=410 CA= DISTRIB=False
+[60] (22.608,43.703) '%%C 12.5'
+      win: '%%C 12.5 | C=410 | 115X125 | DO BLOCO B33 | (costela)'
+      features: POS= BIT=12.5 XQTY=125 N_PAREN= C=410 CA= DISTRIB=False
+[61] (24.148,43.703) 'C=410'
+      win: 'C=410 | 115X125 | DO BLOCO B33 | (costela)'
+      features: POS= BIT=41 XQTY=125 N_PAREN= C=410 CA= DISTRIB=False
+[62] (5.931,56.075) '115X125'
+      win: '115X125 | DO BLOCO B33 | (costela)'
+      features: POS= BIT=11 XQTY=125 N_PAREN= C= CA= DISTRIB=False
+[63] (14.257,54.158) 'DO BLOCO B33'
+      win: 'DO BLOCO B33 | (costela)'
+      features: POS= BIT=33 XQTY= N_PAREN= C= CA= DISTRIB=False
+[64] (61.583,46.579) '(costela)'
+      win: '(costela)'
+      features: POS= BIT= XQTY= N_PAREN= C= CA= DISTRIB=False
+
+==== GRUPO VIGA: V10 tokens[487:529] ====
+[487] (81.264,53.053) '10926'
+      win: '10926 | 607 | 18 | 20 | 1 | 50 | 3577 | 511'
+      features: POS= BIT=10 XQTY= N_PAREN= C= CA= DISTRIB=False
+[488] (79.63,53.053) '607'
+      win: '607 | 18 | 20 | 1 | 50 | 3577 | 511 | 7'
+      features: POS= BIT=60 XQTY= N_PAREN= C= CA= DISTRIB=False
+[489] (78.42,53.053) '18'
+      win: '18 | 20 | 1 | 50 | 3577 | 511 | 7 | 20'
+      features: POS= BIT=18 XQTY= N_PAREN= C= CA= DISTRIB=False
+[490] (76.537,53.059) '20'
+      win: '20 | 1 | 50 | 3577 | 511 | 7 | 20 | 2'
+      features: POS= BIT=20 XQTY= N_PAREN= C= CA= DISTRIB=False
+[491] (75.63,53.053) '1'
+      win: '1 | 50 | 3577 | 511 | 7 | 20 | 2 | 50'
+      features: POS= BIT=1 XQTY= N_PAREN= C= CA= DISTRIB=False
+[492] (73.39,53.053) '50'
+      win: '50 | 3577 | 511 | 7 | 20 | 2 | 50 | 4500'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[493] (81.264,52.703) '3577'
+      win: '3577 | 511 | 7 | 20 | 2 | 50 | 4500 | 225'
+      features: POS= BIT=35 XQTY= N_PAREN= C= CA= DISTRIB=False
+[494] (79.63,52.703) '511'
+      win: '511 | 7 | 20 | 2 | 50 | 4500 | 225 | 20'
+      features: POS= BIT=51 XQTY= N_PAREN= C= CA= DISTRIB=False
+[495] (78.42,52.703) '7'
+      win: '7 | 20 | 2 | 50 | 4500 | 225 | 20 | 10'
+      features: POS= BIT=7 XQTY= N_PAREN= C= CA= DISTRIB=False
+[496] (76.537,52.709) '20'
+      win: '20 | 2 | 50 | 4500 | 225 | 20 | 10 | 3'
+      features: POS= BIT=20 XQTY= N_PAREN= C= CA= DISTRIB=False
+[497] (75.63,52.703) '2'
+      win: '2 | 50 | 4500 | 225 | 20 | 10 | 3 | 50'
+      features: POS= BIT=2 XQTY= N_PAREN= C= CA= DISTRIB=False
+[498] (73.39,52.703) '50'
+      win: '50 | 4500 | 225 | 20 | 10 | 3 | 50 | 4920'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[499] (81.264,52.353) '4500'
+      win: '4500 | 225 | 20 | 10 | 3 | 50 | 4920 | 410'
+      features: POS= BIT=45 XQTY= N_PAREN= C= CA= DISTRIB=False
+[500] (79.63,52.353) '225'
+      win: '225 | 20 | 10 | 3 | 50 | 4920 | 410 | 12'
+      features: POS= BIT=22 XQTY= N_PAREN= C= CA= DISTRIB=False
+[501] (78.42,52.353) '20'
+      win: '20 | 10 | 3 | 50 | 4920 | 410 | 12 | 12.5'
+      features: POS= BIT=20 XQTY= N_PAREN= C= CA= DISTRIB=False
+[502] (76.537,52.359) '10'
+      win: '10 | 3 | 50 | 4920 | 410 | 12 | 12.5 | 4'
+      features: POS= BIT=10 XQTY= N_PAREN= C= CA= DISTRIB=False
+[503] (75.63,52.353) '3'
+      win: '3 | 50 | 4920 | 410 | 12 | 12.5 | 4 | 50'
+      features: POS= BIT=3 XQTY= N_PAREN= C= CA= DISTRIB=False
+[504] (73.39,52.353) '50'
+      win: '50 | 4920 | 410 | 12 | 12.5 | 4 | 50 | 17644'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[505] (81.264,52.003) '4920'
+      win: '4920 | 410 | 12 | 12.5 | 4 | 50 | 17644 | 401'
+      features: POS= BIT=49 XQTY= N_PAREN= C= CA= DISTRIB=False
+[506] (79.63,52.003) '410'
+      win: '410 | 12 | 12.5 | 4 | 50 | 17644 | 401 | 44'
+      features: POS= BIT=41 XQTY= N_PAREN= C= CA= DISTRIB=False
+[507] (78.42,52.003) '12'
+      win: '12 | 12.5 | 4 | 50 | 17644 | 401 | 44 | 8'
+      features: POS= BIT=12 XQTY= N_PAREN= C= CA= DISTRIB=False
+[508] (76.537,52.009) '12.5'
+      win: '12.5 | 4 | 50 | 17644 | 401 | 44 | 8 | 5'
+      features: POS= BIT=12.5 XQTY= N_PAREN= C= CA= DISTRIB=False
+[509] (75.63,52.003) '4'
+      win: '4 | 50 | 17644 | 401 | 44 | 8 | 5 | 50'
+      features: POS= BIT=4 XQTY= N_PAREN= C= CA= DISTRIB=False
+[510] (73.39,52.003) '50'
+      win: '50 | 17644 | 401 | 44 | 8 | 5 | 50 | 2444'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[511] (81.264,51.653) '17644'
+      win: '17644 | 401 | 44 | 8 | 5 | 50 | 2444 | 94'
+      features: POS= BIT=17 XQTY= N_PAREN= C= CA= DISTRIB=False
+[512] (79.63,51.653) '401'
+      win: '401 | 44 | 8 | 5 | 50 | 2444 | 94 | 26'
+      features: POS= BIT=40 XQTY= N_PAREN= C= CA= DISTRIB=False
+[513] (78.42,51.653) '44'
+      win: '44 | 8 | 5 | 50 | 2444 | 94 | 26 | 8'
+      features: POS= BIT=44 XQTY= N_PAREN= C= CA= DISTRIB=False
+[514] (76.537,51.659) '8'
+      win: '8 | 5 | 50 | 2444 | 94 | 26 | 8 | 6'
+      features: POS= BIT=8 XQTY= N_PAREN= C= CA= DISTRIB=False
+[515] (75.63,51.653) '5'
+      win: '5 | 50 | 2444 | 94 | 26 | 8 | 6 | 50'
+      features: POS= BIT=5 XQTY= N_PAREN= C= CA= DISTRIB=False
+[516] (73.39,51.653) '50'
+      win: '50 | 2444 | 94 | 26 | 8 | 6 | 50 | 7904'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[517] (81.264,51.303) '2444'
+      win: '2444 | 94 | 26 | 8 | 6 | 50 | 7904 | 304'
+      features: POS= BIT=24 XQTY= N_PAREN= C= CA= DISTRIB=False
+[518] (79.63,51.303) '94'
+      win: '94 | 26 | 8 | 6 | 50 | 7904 | 304 | 26'
+      features: POS= BIT=94 XQTY= N_PAREN= C= CA= DISTRIB=False
+[519] (78.42,51.303) '26'
+      win: '26 | 8 | 6 | 50 | 7904 | 304 | 26 | 8'
+      features: POS= BIT=26 XQTY= N_PAREN= C= CA= DISTRIB=False
+[520] (76.537,51.309) '8'
+      win: '8 | 6 | 50 | 7904 | 304 | 26 | 8 | 7'
+      features: POS= BIT=8 XQTY= N_PAREN= C= CA= DISTRIB=False
+[521] (75.63,51.303) '6'
+      win: '6 | 50 | 7904 | 304 | 26 | 8 | 7 | 50'
+      features: POS= BIT=6 XQTY= N_PAREN= C= CA= DISTRIB=False
+[522] (73.39,51.303) '50'
+      win: '50 | 7904 | 304 | 26 | 8 | 7 | 50'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[523] (81.264,50.953) '7904'
+      win: '7904 | 304 | 26 | 8 | 7 | 50'
+      features: POS= BIT=79 XQTY= N_PAREN= C= CA= DISTRIB=False
+[524] (79.63,50.953) '304'
+      win: '304 | 26 | 8 | 7 | 50'
+      features: POS= BIT=30 XQTY= N_PAREN= C= CA= DISTRIB=False
+[525] (78.42,50.953) '26'
+      win: '26 | 8 | 7 | 50'
+      features: POS= BIT=26 XQTY= N_PAREN= C= CA= DISTRIB=False
+[526] (76.537,50.959) '8'
+      win: '8 | 7 | 50'
+      features: POS= BIT=8 XQTY= N_PAREN= C= CA= DISTRIB=False
+[527] (75.63,50.953) '7'
+      win: '7 | 50'
+      features: POS= BIT=7 XQTY= N_PAREN= C= CA= DISTRIB=False
+[528] (73.39,50.953) '50'
+      win: '50'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+
+==== GRUPO VIGA: V10 tokens[938:1000] ====
+[938] (8.548,46.312) 'B36'
+      win: 'B36 | B33 | Corte A | A | A | Corte B | B | B'
+      features: POS= BIT=36 XQTY= N_PAREN= C= CA= DISTRIB=False
+[939] (18.553,46.075) 'B33'
+      win: 'B33 | Corte A | A | A | Corte B | B | B | 80'
+      features: POS= BIT=33 XQTY= N_PAREN= C= CA= DISTRIB=False
+[940] (22.108,54.933) 'Corte A'
+      win: 'Corte A | A | A | Corte B | B | B | 80 | 18'
+      features: POS= BIT=80 XQTY= N_PAREN= C= CA= DISTRIB=False
+[941] (6.09,45.966) 'A'
+      win: 'A | A | Corte B | B | B | 80 | 18 | N1'
+      features: POS=N1 BIT=80 XQTY= N_PAREN= C= CA= DISTRIB=False
+[942] (6.09,51.361) 'A'
+      win: 'A | Corte B | B | B | 80 | 18 | N1 | %%C 20'
+      features: POS=N1 BIT=80 XQTY= N_PAREN= C= CA= DISTRIB=False
+[943] (30.008,54.933) 'Corte B'
+      win: 'Corte B | B | B | 80 | 18 | N1 | %%C 20 | C=607'
+      features: POS=N1 BIT=80 XQTY= N_PAREN= C=607 CA= DISTRIB=False
+[944] (11.411,45.966) 'B'
+      win: 'B | B | 80 | 18 | N1 | %%C 20 | C=607 | 2x13'
+      features: POS=N1 BIT=80 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[945] (11.411,51.361) 'B'
+      win: 'B | 80 | 18 | N1 | %%C 20 | C=607 | 2x13 | N6'
+      features: POS=N1 BIT=80 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[946] (4.916,53.784) '80'
+      win: '80 | 18 | N1 | %%C 20 | C=607 | 2x13 | N6 | %%C 8'
+      features: POS=N1 BIT=80 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[947] (8.695,54.921) '18'
+      win: '18 | N1 | %%C 20 | C=607 | 2x13 | N6 | %%C 8 | C=94'
+      features: POS=N1 BIT=18 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[948] (9.355,54.921) 'N1'
+      win: 'N1 | %%C 20 | C=607 | 2x13 | N6 | %%C 8 | C=94 | 76'
+      features: POS=N1 BIT=1 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[949] (10.015,54.921) '%%C 20'
+      win: '%%C 20 | C=607 | 2x13 | N6 | %%C 8 | C=94 | 76 | 73'
+      features: POS=N6 BIT=20 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[950] (11.115,54.921) 'C=607'
+      win: 'C=607 | 2x13 | N6 | %%C 8 | C=94 | 76 | 73 | 10x2'
+      features: POS=N6 BIT=60 XQTY=13 N_PAREN= C=607 CA= DISTRIB=False
+[951] (4.776,44.274) '2x13'
+      win: '2x13 | N6 | %%C 8 | C=94 | 76 | 73 | 10x2 | N3'
+      features: POS=N6 BIT=2 XQTY=13 N_PAREN= C=94 CA= DISTRIB=False
+[952] (5.876,44.274) 'N6'
+      win: 'N6 | %%C 8 | C=94 | 76 | 73 | 10x2 | N3 | %%C 10'
+      features: POS=N6 BIT=6 XQTY=2 N_PAREN= C=94 CA= DISTRIB=False
+[953] (6.536,44.274) '%%C 8'
+      win: '%%C 8 | C=94 | 76 | 73 | 10x2 | N3 | %%C 10 | C=225'
+      features: POS=N3 BIT=8 XQTY=2 N_PAREN= C=94 CA= DISTRIB=False
+[954] (5.41,43.911) 'C=94'
+      win: 'C=94 | 76 | 73 | 10x2 | N3 | %%C 10 | C=225 | 10X2 %%C 10'
+      features: POS=N3 BIT=94 XQTY=2 N_PAREN= C=94 CA= DISTRIB=False
+[955] (5.006,51.974) '76'
+      win: '76 | 73 | 10x2 | N3 | %%C 10 | C=225 | 10X2 %%C 10 | 2x13'
+      features: POS=N3 BIT=76 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[956] (4.907,52.403) '73'
+      win: '73 | 10x2 | N3 | %%C 10 | C=225 | 10X2 %%C 10 | 2x13 | N7'
+      features: POS=N3 BIT=73 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[957] (5.72,52.815) '10x2'
+      win: '10x2 | N3 | %%C 10 | C=225 | 10X2 %%C 10 | 2x13 | N7 | %%C 8'
+      features: POS=N3 BIT=10 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[958] (6.82,52.815) 'N3'
+      win: 'N3 | %%C 10 | C=225 | 10X2 %%C 10 | 2x13 | N7 | %%C 8 | C=304'
+      features: POS=N3 BIT=3 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[959] (7.48,52.815) '%%C 10'
+      win: '%%C 10 | C=225 | 10X2 %%C 10 | 2x13 | N7 | %%C 8 | C=304 | 24'
+      features: POS=N7 BIT=10 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[960] (6.41,52.411) 'C=225'
+      win: 'C=225 | 10X2 %%C 10 | 2x13 | N7 | %%C 8 | C=304 | 24 | 7'
+      features: POS=N7 BIT=22 XQTY=2 N_PAREN= C=225 CA= DISTRIB=False
+[961] (5.58,48.766) '10X2 %%C 10'
+      win: '10X2 %%C 10 | 2x13 | N7 | %%C 8 | C=304 | 24 | 7 | N2'
+      features: POS=N7 BIT=10 XQTY=2 N_PAREN= C=304 CA= DISTRIB=False
+[962] (9.138,44.248) '2x13'
+      win: '2x13 | N7 | %%C 8 | C=304 | 24 | 7 | N2 | %%C 20'
+      features: POS=N7 BIT=2 XQTY=13 N_PAREN= C=304 CA= DISTRIB=False
+[963] (10.238,44.248) 'N7'
+      win: 'N7 | %%C 8 | C=304 | 24 | 7 | N2 | %%C 20 | C=511'
+      features: POS=N7 BIT=7 XQTY= N_PAREN= C=304 CA= DISTRIB=False
+[964] (10.898,44.248) '%%C 8'
+      win: '%%C 8 | C=304 | 24 | 7 | N2 | %%C 20 | C=511 | COLOCAR N1 POR'
+      features: POS=N2 BIT=8 XQTY= N_PAREN= C=304 CA= DISTRIB=False
+[965] (11.778,44.248) 'C=304'
+      win: 'C=304 | 24 | 7 | N2 | %%C 20 | C=511 | COLOCAR N1 POR | DENTRO DOS FERROS'
+      features: POS=N2 BIT=30 XQTY= N_PAREN= C=304 CA= DISTRIB=False
+[966] (7.999,44.124) '24'
+      win: '24 | 7 | N2 | %%C 20 | C=511 | COLOCAR N1 POR | DENTRO DOS FERROS | 120'
+      features: POS=N2 BIT=24 XQTY= N_PAREN= C=511 CA= DISTRIB=False
+[967] (8.898,43.138) '7'
+      win: '7 | N2 | %%C 20 | C=511 | COLOCAR N1 POR | DENTRO DOS FERROS | 120 | 73'
+      features: POS=N2 BIT=7 XQTY= N_PAREN= C=511 CA= DISTRIB=False
+[968] (9.338,43.138) 'N2'
+      win: 'N2 | %%C 20 | C=511 | COLOCAR N1 POR | DENTRO DOS FERROS | 120 | 73 | (4R)'
+      features: POS=N2 BIT=2 XQTY= N_PAREN= C=511 CA= DISTRIB=False
+[969] (9.998,43.138) '%%C 20'
+      win: '%%C 20 | C=511 | COLOCAR N1 POR | DENTRO DOS FERROS | 120 | 73 | (4R) | 22'
+      features: POS=N1 BIT=20 XQTY= N_PAREN= C=511 CA= DISTRIB=False
+[970] (11.098,43.138) 'C=511'
+      win: 'C=511 | COLOCAR N1 POR | DENTRO DOS FERROS | 120 | 73 | (4R) | 22 | %%C 8'
+      features: POS=N1 BIT=51 XQTY= N_PAREN= C=511 CA= DISTRIB=False
+[971] (14.257,54.872) 'COLOCAR N1 POR'
+      win: 'COLOCAR N1 POR | DENTRO DOS FERROS | 120 | 73 | (4R) | 22 | %%C 8 | C/12'
+      features: POS=N1 BIT=1 XQTY= N_PAREN= C= CA= DISTRIB=True
+[972] (14.257,54.515) 'DENTRO DOS FERROS'
+      win: 'DENTRO DOS FERROS | 120 | 73 | (4R) | 22 | %%C 8 | C/12 | N5'
+      features: POS=N5 BIT=12 XQTY= N_PAREN= C= CA= DISTRIB=True
+[973] (28.748,46.883) '120'
+      win: '120 | 73 | (4R) | 22 | %%C 8 | C/12 | N5 | (256)'
+      features: POS=N5 BIT=12 XQTY= N_PAREN= C= CA= DISTRIB=True
+[974] (30.105,49.723) '73'
+      win: '73 | (4R) | 22 | %%C 8 | C/12 | N5 | (256) | 2x22'
+      features: POS=N5 BIT=73 XQTY=22 N_PAREN= C= CA= DISTRIB=True
+[975] (10.478,50.596) '(4R)'
+      win: '(4R) | 22 | %%C 8 | C/12 | N5 | (256) | 2x22 | N5'
+      features: POS=N5 BIT=4 XQTY=22 N_PAREN= C= CA= DISTRIB=True
+[976] (9.708,50.266) '22'
+      win: '22 | %%C 8 | C/12 | N5 | (256) | 2x22 | N5 | %%C 8'
+      features: POS=N5 BIT=22 XQTY=22 N_PAREN= C= CA= DISTRIB=True
+[977] (10.368,50.266) '%%C 8'
+      win: '%%C 8 | C/12 | N5 | (256) | 2x22 | N5 | %%C 8 | C=401'
+      features: POS=N5 BIT=8 XQTY=22 N_PAREN= C=401 CA= DISTRIB=True
+[978] (11.248,50.266) 'C/12'
+      win: 'C/12 | N5 | (256) | 2x22 | N5 | %%C 8 | C=401 | 120'
+      features: POS=N5 BIT=12 XQTY=22 N_PAREN= C=401 CA= DISTRIB=True
+[979] (10.038,49.936) 'N5'
+      win: 'N5 | (256) | 2x22 | N5 | %%C 8 | C=401 | 120 | 73'
+      features: POS=N5 BIT=5 XQTY=22 N_PAREN= C=401 CA= DISTRIB=False
+[980] (10.698,49.936) '(256)'
+      win: '(256) | 2x22 | N5 | %%C 8 | C=401 | 120 | 73 | (4R)'
+      features: POS=N5 BIT=25 XQTY=22 N_PAREN= C=401 CA= DISTRIB=False
+[981] (29.188,43.703) '2x22'
+      win: '2x22 | N5 | %%C 8 | C=401 | 120 | 73 | (4R) | 6'
+      features: POS=N5 BIT=2 XQTY=22 N_PAREN= C=401 CA= DISTRIB=False
+[982] (30.288,43.703) 'N5'
+      win: 'N5 | %%C 8 | C=401 | 120 | 73 | (4R) | 6 | %%C 12.5'
+      features: POS=N5 BIT=5 XQTY= N_PAREN= C=401 CA= DISTRIB=False
+[983] (30.948,43.703) '%%C 8'
+      win: '%%C 8 | C=401 | 120 | 73 | (4R) | 6 | %%C 12.5 | C/12'
+      features: POS= BIT=8 XQTY= N_PAREN= C=401 CA= DISTRIB=True
+[984] (31.828,43.703) 'C=401'
+      win: 'C=401 | 120 | 73 | (4R) | 6 | %%C 12.5 | C/12 | N4'
+      features: POS=N4 BIT=40 XQTY= N_PAREN= C=401 CA= DISTRIB=True
+[985] (20.848,46.883) '120'
+      win: '120 | 73 | (4R) | 6 | %%C 12.5 | C/12 | N4 | (72)'
+      features: POS=N4 BIT=12 XQTY= N_PAREN= C= CA= DISTRIB=True
+[986] (22.205,49.723) '73'
+      win: '73 | (4R) | 6 | %%C 12.5 | C/12 | N4 | (72) | 2x6'
+      features: POS=N4 BIT=73 XQTY=6 N_PAREN= C= CA= DISTRIB=True
+[987] (5.289,50.776) '(4R)'
+      win: '(4R) | 6 | %%C 12.5 | C/12 | N4 | (72) | 2x6 | N4'
+      features: POS=N4 BIT=4 XQTY=6 N_PAREN= C= CA= DISTRIB=True
+[988] (4.832,50.467) '6'
+      win: '6 | %%C 12.5 | C/12 | N4 | (72) | 2x6 | N4 | %%C 12.5'
+      features: POS=N4 BIT=6 XQTY=6 N_PAREN= C= CA= DISTRIB=True
+[989] (5.272,50.467) '%%C 12.5'
+      win: '%%C 12.5 | C/12 | N4 | (72) | 2x6 | N4 | %%C 12.5 | C=410'
+      features: POS=N4 BIT=12.5 XQTY=6 N_PAREN= C=410 CA= DISTRIB=True
+[990] (5.236,50.169) 'C/12'
+      win: 'C/12 | N4 | (72) | 2x6 | N4 | %%C 12.5 | C=410 | 115X125'
+      features: POS=N4 BIT=12 XQTY=6 N_PAREN= C=410 CA= DISTRIB=True
+[991] (5.513,49.867) 'N4'
+      win: 'N4 | (72) | 2x6 | N4 | %%C 12.5 | C=410 | 115X125 | DO BLOCO B33'
+      features: POS=N4 BIT=4 XQTY=6 N_PAREN= C=410 CA= DISTRIB=False
+[992] (5.368,49.59) '(72)'
+      win: '(72) | 2x6 | N4 | %%C 12.5 | C=410 | 115X125 | DO BLOCO B33 | (costela)'
+      features: POS=N4 BIT=72 XQTY=6 N_PAREN= C=410 CA= DISTRIB=False
+[993] (21.068,43.703) '2x6'
+      win: '2x6 | N4 | %%C 12.5 | C=410 | 115X125 | DO BLOCO B33 | (costela)'
+      features: POS=N4 BIT=2 XQTY=6 N_PAREN= C=410 CA= DISTRIB=False
+[994] (21.948,43.703) 'N4'
+      win: 'N4 | %%C 12.5 | C=410 | 115X125 | DO BLOCO B33 | (costela)'
+      features: POS=N4 BIT=4 XQTY=125 N_PAREN= C=410 CA= DISTRIB=False
+[995] (22.608,43.703) '%%C 12.5'
+      win: '%%C 12.5 | C=410 | 115X125 | DO BLOCO B33 | (costela)'
+      features: POS= BIT=12.5 XQTY=125 N_PAREN= C=410 CA= DISTRIB=False
+[996] (24.148,43.703) 'C=410'
+      win: 'C=410 | 115X125 | DO BLOCO B33 | (costela)'
+      features: POS= BIT=41 XQTY=125 N_PAREN= C=410 CA= DISTRIB=False
+[997] (5.931,56.075) '115X125'
+      win: '115X125 | DO BLOCO B33 | (costela)'
+      features: POS= BIT=11 XQTY=125 N_PAREN= C= CA= DISTRIB=False
+[998] (14.257,54.158) 'DO BLOCO B33'
+      win: 'DO BLOCO B33 | (costela)'
+      features: POS= BIT=33 XQTY= N_PAREN= C= CA= DISTRIB=False
+[999] (61.583,46.579) '(costela)'
+      win: '(costela)'
+      features: POS= BIT= XQTY= N_PAREN= C= CA= DISTRIB=False
+
+==== GRUPO VIGA: V10 tokens[1422:1464] ====
+[1422] (81.264,53.053) '10926'
+      win: '10926 | 607 | 18 | 20 | 1 | 50 | 3577 | 511'
+      features: POS= BIT=10 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1423] (79.63,53.053) '607'
+      win: '607 | 18 | 20 | 1 | 50 | 3577 | 511 | 7'
+      features: POS= BIT=60 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1424] (78.42,53.053) '18'
+      win: '18 | 20 | 1 | 50 | 3577 | 511 | 7 | 20'
+      features: POS= BIT=18 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1425] (76.537,53.059) '20'
+      win: '20 | 1 | 50 | 3577 | 511 | 7 | 20 | 2'
+      features: POS= BIT=20 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1426] (75.63,53.053) '1'
+      win: '1 | 50 | 3577 | 511 | 7 | 20 | 2 | 50'
+      features: POS= BIT=1 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1427] (73.39,53.053) '50'
+      win: '50 | 3577 | 511 | 7 | 20 | 2 | 50 | 4500'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1428] (81.264,52.703) '3577'
+      win: '3577 | 511 | 7 | 20 | 2 | 50 | 4500 | 225'
+      features: POS= BIT=35 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1429] (79.63,52.703) '511'
+      win: '511 | 7 | 20 | 2 | 50 | 4500 | 225 | 20'
+      features: POS= BIT=51 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1430] (78.42,52.703) '7'
+      win: '7 | 20 | 2 | 50 | 4500 | 225 | 20 | 10'
+      features: POS= BIT=7 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1431] (76.537,52.709) '20'
+      win: '20 | 2 | 50 | 4500 | 225 | 20 | 10 | 3'
+      features: POS= BIT=20 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1432] (75.63,52.703) '2'
+      win: '2 | 50 | 4500 | 225 | 20 | 10 | 3 | 50'
+      features: POS= BIT=2 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1433] (73.39,52.703) '50'
+      win: '50 | 4500 | 225 | 20 | 10 | 3 | 50 | 4920'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1434] (81.264,52.353) '4500'
+      win: '4500 | 225 | 20 | 10 | 3 | 50 | 4920 | 410'
+      features: POS= BIT=45 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1435] (79.63,52.353) '225'
+      win: '225 | 20 | 10 | 3 | 50 | 4920 | 410 | 12'
+      features: POS= BIT=22 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1436] (78.42,52.353) '20'
+      win: '20 | 10 | 3 | 50 | 4920 | 410 | 12 | 12.5'
+      features: POS= BIT=20 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1437] (76.537,52.359) '10'
+      win: '10 | 3 | 50 | 4920 | 410 | 12 | 12.5 | 4'
+      features: POS= BIT=10 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1438] (75.63,52.353) '3'
+      win: '3 | 50 | 4920 | 410 | 12 | 12.5 | 4 | 50'
+      features: POS= BIT=3 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1439] (73.39,52.353) '50'
+      win: '50 | 4920 | 410 | 12 | 12.5 | 4 | 50 | 17644'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1440] (81.264,52.003) '4920'
+      win: '4920 | 410 | 12 | 12.5 | 4 | 50 | 17644 | 401'
+      features: POS= BIT=49 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1441] (79.63,52.003) '410'
+      win: '410 | 12 | 12.5 | 4 | 50 | 17644 | 401 | 44'
+      features: POS= BIT=41 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1442] (78.42,52.003) '12'
+      win: '12 | 12.5 | 4 | 50 | 17644 | 401 | 44 | 8'
+      features: POS= BIT=12 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1443] (76.537,52.009) '12.5'
+      win: '12.5 | 4 | 50 | 17644 | 401 | 44 | 8 | 5'
+      features: POS= BIT=12.5 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1444] (75.63,52.003) '4'
+      win: '4 | 50 | 17644 | 401 | 44 | 8 | 5 | 50'
+      features: POS= BIT=4 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1445] (73.39,52.003) '50'
+      win: '50 | 17644 | 401 | 44 | 8 | 5 | 50 | 2444'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1446] (81.264,51.653) '17644'
+      win: '17644 | 401 | 44 | 8 | 5 | 50 | 2444 | 94'
+      features: POS= BIT=17 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1447] (79.63,51.653) '401'
+      win: '401 | 44 | 8 | 5 | 50 | 2444 | 94 | 26'
+      features: POS= BIT=40 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1448] (78.42,51.653) '44'
+      win: '44 | 8 | 5 | 50 | 2444 | 94 | 26 | 8'
+      features: POS= BIT=44 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1449] (76.537,51.659) '8'
+      win: '8 | 5 | 50 | 2444 | 94 | 26 | 8 | 6'
+      features: POS= BIT=8 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1450] (75.63,51.653) '5'
+      win: '5 | 50 | 2444 | 94 | 26 | 8 | 6 | 50'
+      features: POS= BIT=5 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1451] (73.39,51.653) '50'
+      win: '50 | 2444 | 94 | 26 | 8 | 6 | 50 | 7904'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1452] (81.264,51.303) '2444'
+      win: '2444 | 94 | 26 | 8 | 6 | 50 | 7904 | 304'
+      features: POS= BIT=24 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1453] (79.63,51.303) '94'
+      win: '94 | 26 | 8 | 6 | 50 | 7904 | 304 | 26'
+      features: POS= BIT=94 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1454] (78.42,51.303) '26'
+      win: '26 | 8 | 6 | 50 | 7904 | 304 | 26 | 8'
+      features: POS= BIT=26 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1455] (76.537,51.309) '8'
+      win: '8 | 6 | 50 | 7904 | 304 | 26 | 8 | 7'
+      features: POS= BIT=8 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1456] (75.63,51.303) '6'
+      win: '6 | 50 | 7904 | 304 | 26 | 8 | 7 | 50'
+      features: POS= BIT=6 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1457] (73.39,51.303) '50'
+      win: '50 | 7904 | 304 | 26 | 8 | 7 | 50'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1458] (81.264,50.953) '7904'
+      win: '7904 | 304 | 26 | 8 | 7 | 50'
+      features: POS= BIT=79 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1459] (79.63,50.953) '304'
+      win: '304 | 26 | 8 | 7 | 50'
+      features: POS= BIT=30 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1460] (78.42,50.953) '26'
+      win: '26 | 8 | 7 | 50'
+      features: POS= BIT=26 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1461] (76.537,50.959) '8'
+      win: '8 | 7 | 50'
+      features: POS= BIT=8 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1462] (75.63,50.953) '7'
+      win: '7 | 50'
+      features: POS= BIT=7 XQTY= N_PAREN= C= CA= DISTRIB=False
+[1463] (73.39,50.953) '50'
+      win: '50'
+      features: POS= BIT=50 XQTY= N_PAREN= C= CA= DISTRIB=False

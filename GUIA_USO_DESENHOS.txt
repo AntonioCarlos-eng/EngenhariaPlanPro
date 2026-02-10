@@ -1,0 +1,88 @@
+===============================================================================
+🎯 GUIA DE USO - ETIQUETAS COM DESENHO TÉCNICO
+===============================================================================
+
+⚠️  IMPORTANTE: Para que o desenho apareça na etiqueta, você DEVE:
+
+1️⃣ CARREGAR UM DXF PRIMEIRO
+   • Clique em "Selecionar DXF" ou "Selecionar múltiplos DXF"
+   • Escolha o arquivo DXF (ex: vig terreo f 1-R2 - Copia.DXF)
+   • Aguarde o processamento
+
+2️⃣ DEPOIS, GERAR AS ETIQUETAS
+   • Clique em "🏷️ Gerar Etiquetas"
+   • O sistema criará o GeradorEtiquetasDinamico
+   • As etiquetas aparecerão com o desenho técnico extraído do DXF
+
+===============================================================================
+❌ O QUE NÃO FAZER:
+===============================================================================
+
+✗ NÃO clique em "Gerar Etiquetas" sem antes carregar um DXF
+  → Sem DXF, não há gerador, não há desenho!
+
+✗ NÃO use dados em cache/memória de sessão anterior
+  → Sempre carregue o DXF novamente na sessão atual
+
+===============================================================================
+✅ FLUXO CORRETO:
+===============================================================================
+
+1. Execute: python main.py
+2. Na tela principal, clique em "🏗️ VIGAS"
+3. Clique em "Selecionar DXF" (🔍)
+4. Escolha: dxf/vig terreo f 1-R2 - Copia.DXF
+5. Aguarde processar (mostrará: "46 etiquetas")
+6. Clique em "🏷️ Gerar Etiquetas"
+7. Navegue pelas etiquetas com os botões
+8. Você verá o desenho técnico na parte superior de cada etiqueta!
+
+===============================================================================
+🔍 VERIFICAÇÃO:
+===============================================================================
+
+Se o desenho NÃO aparecer, verifique no console:
+
+✅ CORRETO:
+   • "[TABLE TITLES] vig terreo f 1-R2 - Copia.DXF -> ..."
+   • "✅ Processados 46 registros de barras"
+   • "✅ Viga 'V8' encontrada em (x, y)"
+   • "✅ Posição 'N1' encontrada em (x, y)"
+   • "📍 Centro escolhido: (x, y)"
+
+❌ PROBLEMA:
+   • "⚠️ etiquetas_helper não disponível"
+   • "⚠️ desenho_extractor não disponível"
+   • "❌ Desenho de viga/pos não localizado"
+
+===============================================================================
+🛠️ SOLUÇÃO DE PROBLEMAS:
+===============================================================================
+
+PROBLEMA: "No module named 'barcode'"
+SOLUÇÃO: .\.venv\Scripts\python.exe -m pip install python-barcode pillow ezdxf
+
+PROBLEMA: Desenho não aparece
+SOLUÇÃO: Certifique-se de que o DXF foi carregado NESTA sessão
+
+PROBLEMA: "Too early to create image"
+SOLUÇÃO: Ignore (é só um aviso de teste, funciona no app)
+
+===============================================================================
+📋 ARQUIVOS PRONTOS PARA TESTE:
+===============================================================================
+
+DXF de teste: dxf/vig terreo f 1-R2 - Copia.DXF
+   • Contém: V8, V9, V10, VM1, VM2
+   • Total: 46 etiquetas
+   • 484 barras, 991.50 kg
+   • Desenhos técnicos extraíveis
+
+===============================================================================
+✅ TUDO PRONTO!
+===============================================================================
+
+Execute: python main.py
+E siga o fluxo acima!
+
+O desenho técnico aparecerá automaticamente em cada etiqueta! 🎉

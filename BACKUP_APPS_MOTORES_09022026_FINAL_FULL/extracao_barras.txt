@@ -1,0 +1,14 @@
+=== EXTRAÇÃO DE BARRAS DO DXF ===
+
+Arquivo: C:/Users/orqui/OneDrive/Área de Trabalho/projetos/561-EST-LO-0113-LAJ-COB2-R00.dxf
+Total de linhas: 14448
+
+=== BARRAS ENCONTRADAS (Método 1) ===
+
+=== MATCHES COMPLETOS (Método 2) ===
+
+=== ELEMENTOS SEPARADOS (Método 3) ===
+Posições: []
+Quantidades: []
+Bitolas: ['40', '70']
+Comprimentos: []

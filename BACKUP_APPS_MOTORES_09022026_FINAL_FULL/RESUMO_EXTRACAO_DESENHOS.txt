@@ -1,0 +1,96 @@
+=======================================================================
+✅ SISTEMA DE EXTRAÇÃO DE DESENHOS ESPECÍFICOS - IMPLEMENTADO
+=======================================================================
+
+🎯 PROBLEMA RESOLVIDO:
+   ❌ ANTES: Mostrava o projeto todo
+   ✅ AGORA: Mostra apenas o desenho da barra específica
+
+📋 COMO FUNCIONA:
+
+1. BUSCA INTELIGENTE:
+   • Procura textos com nome EXATO da viga (ex: "V301")
+   • Procura textos com posição EXATA (ex: "N1")
+   • Identifica múltiplas ocorrências
+
+2. SELEÇÃO DO CENTRO:
+   • Calcula distância entre todos os pares viga+posição
+   • Escolhe o par mais próximo
+   • Define centro entre os dois textos
+
+3. EXTRAÇÃO REGIONAL:
+   • Região focada: 120mm x 90mm (±60mm x, ±45mm y)
+   • Renderiza APENAS entidades dentro dessa região
+   • Ignora todo o resto do projeto
+
+4. FALLBACKS:
+   • Se não encontrar viga+pos juntos, usa um ou outro
+   • Se não encontrar textos, busca por layer
+   • Se não encontrar layer, busca por bloco
+   • Se não encontrar nada, retorna None (não o projeto todo)
+
+=======================================================================
+🧪 TESTES REALIZADOS:
+=======================================================================
+
+✅ P1_COMPLETO.dxf (simples)
+   • V_GERAL N8: Extraído com sucesso
+   • Apenas N8: Extraído com sucesso
+   • V8 N1 (não existe): Corretamente rejeitado
+
+✅ dxf/#vigas t1-069.DXF (complexo)
+   • V301 N1: ✅ Extraído (centro: 5.2, 55.2)
+   • V301 N2: ✅ Extraído (centro: 7.7, 54.7)
+   • V302 N1: ✅ Extraído (centro: 5.6, 36.2)
+   • V346 N1: ✅ Extraído (centro: 34.8, 19.9)
+   • V301 N14: ✅ Extraído (centro: 9.8, 50.2)
+
+=======================================================================
+📂 ARQUIVOS MODIFICADOS:
+=======================================================================
+
+✏️  core/desenho_extractor.py (linhas 180-250)
+   • Busca por match exato de viga
+   • Busca por match exato de posição
+   • Cálculo de distância entre pares
+   • Região focada mais restrita (120x90mm)
+   • Logs detalhados para debug
+
+✏️  core/etiquetas_helper.py (linhas 90-170)
+   • Já preparado para passar viga|pos
+   • Já integrado com desenho_extractor
+
+✏️  vigas_app.py (linhas 2385-2420)
+   • Já passa caminho DXF completo
+   • Já adiciona |viga|pos ao marcador
+   • Já integrado com sistema de etiquetas
+
+=======================================================================
+🚀 COMO USAR:
+=======================================================================
+
+1. Execute: python main.py
+2. Carregue um DXF no vigas_app
+3. Clique em "Gerar Etiquetas"
+4. Navegue pelas etiquetas
+5. Os desenhos agora mostram APENAS a barra específica!
+
+=======================================================================
+🔍 DEBUG:
+=======================================================================
+
+O sistema imprime logs detalhados:
+   ✅ Viga 'V301' encontrada em (x, y)
+   ✅ Posição 'N1' encontrada em (x, y)
+   🎯 Encontrados N viga(s) e M posição(ões)
+   📍 Centro escolhido: (x, y)
+   ❌ Desenho de viga/pos não localizado
+
+Se não aparecer desenho:
+- Verifique os logs no console
+- Confirme que o DXF tem textos com identificação
+- Ajuste raio de busca em desenho_extractor.py (linhas ~245-250)
+
+=======================================================================
+✅ STATUS: PRONTO PARA USO!
+=======================================================================

@@ -1,0 +1,24 @@
+ Layout EXATO do etiquetas_generator.py em HTML
+
+ESTRUTURA VERTICAL (100mm x 150mm):
+1. BORDA LARANJA (#ff6f00) 3px
+2. TOPO (92mm altura):
+   - Esquerda: Dados do projeto (Sigla/Obra, Desenho, Pavimento, Elemento)
+   - Centro/Direita: POS grande destacado
+   - Direita: Bloco OS
+   - Faixa vertical laranja (#ff8c00) com texto rotacionado da obra
+3. TABELA (20mm altura):
+   - Colunas: Bitola | Compr. Unit. | Peso | Qtde
+4. ÁREA DESENHO (38mm altura) - bordada em vermelho (#c8102e)
+5. SEPARADOR CINZA
+6. PICOTES (3x ~18mm cada):
+   - Código de barras GRANDE
+   - Textos: Elem: {viga} {pos} OS {os_num} Ø {bitola}
+   - "Compr. Corte" + valor
+   - Linha tracejada vermelha entre picotes
+
+CORES:
+- Borda principal: #ff6f00 (laranja)
+- Faixa lateral: #ff8c00 (laranja claro)
+- Borda desenho: #c8102e (vermelho)
+- Separadores: #cccccc (cinza claro)

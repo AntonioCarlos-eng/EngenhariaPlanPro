@@ -1,0 +1,64 @@
+================================================================================
+                  CORRECAO DO ERRO DE SALVAMENTO V3.0
+================================================================================
+
+ERRO IDENTIFICADO:
+─────────────────────────────────────────────────────────────────────────────
+"float' object has no attribute 'strip'"
+
+Cause: var_bitola.get() retorna FLOAT (numero)
+        Tentei fazer .strip() em um numero = ERRO!
+
+SOLUCAO IMPLEMENTADA:
+─────────────────────────────────────────────────────────────────────────────
+
+[1] PASSO 1 - Conversao de valores principais
+    ANTES (errado):
+    bitola_str = var_bitola.get().strip() if var_bitola.get() else ""
+    
+    DEPOIS (correto):
+    bitola_val = float(var_bitola.get()) if var_bitola.get() else 0.0
+
+[2] PASSO 3 - Conversao de valores de medidas
+    ANTES (errado):
+    medida_dobra_str = var_medida_dobra.get().strip() if var_medida_dobra.get() else ""
+    
+    DEPOIS (correto):
+    medida_dobra_val = float(var_medida_dobra.get()) if var_medida_dobra.get() else 0.0
+
+[3] BOTAO DE IMPRESSAO DIRETA
+    Adicionado novo botao: "🖨️ SALVAR E IMPRIMIR"
+    - Salva a edicao
+    - Se bem-sucedido, abre dialog de impressao para aquela etiqueta
+    - Botoes do dialog: [SALVAR] [SALVAR E IMPRIMIR] [CANCELAR]
+
+MUDANCAS:
+─────────────────────────────────────────────────────────────────────────────
+vigas_app.py, linhas 3723-3729: Corrigir conversao PASSO 1
+vigas_app.py, linhas 3747-3758: Corrigir conversao PASSO 3
+vigas_app.py, linhas 3830-3854: Adicionar botao de impressao + funcao
+vigas_app.py, linhas 3921-3939: Criar _imprimir_etiqueta_especifica()
+
+STATUS DE COMPILACAO: OK
+─────────────────────────────────────────────────────────────────────────────
+arquivo compilado com sucesso - sem erros de sintaxe!
+
+TESTE AGORA:
+─────────────────────────────────────────────────────────────────────────────
+1. python vigas_app.py
+2. Abra "Editor de Etiquetas"
+3. Clique em uma etiqueta
+4. Altere valores (bitola, qtde, comprimento)
+5. Clique em um dos botoes:
+   a) [✅ SALVAR] - Salva e fecha dialog
+   b) [🖨️ SALVAR E IMPRIMIR] - Salva e abre impressao
+   c) [✕ CANCELAR] - Descarta alteracoes
+
+ESPERADO:
+─────────────────────────────────────────────────────────────────────────────
+✓ Sem erro "float' object has no attribute 'strip'"
+✓ Dados sao salvos corretamente
+✓ Botao de impressao direto funciona
+✓ Etiqueta impressa reflete as mudancas
+
+================================================================================

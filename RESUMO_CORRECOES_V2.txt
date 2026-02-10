@@ -1,0 +1,54 @@
+================================================================================
+                    RESUMO DAS CORREÇÕES - VERSÃO 2.0
+================================================================================
+
+PROBLEMAS ENCONTRADOS:
+─────────────────────────────────────────────────────────────────────────────
+1. ❌ Checkbox não marca quando clicado
+   └─ Causa: Canvas novo (linha 3246) não tinha binding de clique
+   └─ Solução: Adicionado `.bind("<Button-1>", ...)` ao novo canvas
+
+2. ❌ Dialog de edição não abre
+   └─ Causa: Mesmo problema - cliques não eram capturados
+   └─ Solução: Mesmo binding acima resolve ambos os problemas
+
+3. ❌ Checkbox não inverte estado (desmarcava tudo)
+   └─ Causa: `_toggle_etiqueta_selecao` desmarcava todas e marcava uma só
+   └─ Solução: Corrigido para inverter APENAS a etiqueta clicada
+
+MUDANÇAS REALIZADAS:
+─────────────────────────────────────────────────────────────────────────────
+
+[1] vigas_app.py, linha 3246-3257
+    ✓ Adicionado binding de clique ao novo canvas:
+      self.canvas_etiq.bind("<Button-1>", self._handle_canvas_click)
+
+[2] vigas_app.py, linha 3476-3492
+    ✓ Corrigido _toggle_etiqueta_selecao para inverter apenas uma etiqueta:
+      current_state = self.etiquetas_selecionadas.get(idx, True)
+      self.etiquetas_selecionadas[idx] = not current_state  # Toggle real!
+
+RESULTADO ESPERADO:
+─────────────────────────────────────────────────────────────────────────────
+✅ Checkbox marca quando clicado → ☑
+✅ Checkbox desmarca quando clicado novamente → ☐
+✅ Múltiplos checkboxes podem estar marcados
+✅ Dialog abre quando clica em etiqueta
+✅ Dados salvam corretamente
+✅ Etiqueta se atualiza após SALVAR
+
+PRÓXIMAS AÇÕES:
+─────────────────────────────────────────────────────────────────────────────
+1. Execute: python vigas_app.py
+2. Abra "Editor de Etiquetas"
+3. Teste checkbox: Click → deve marcar, Click novamente → deve desmarcar
+4. Teste dialog: Click em etiqueta → deve abrir dialog
+5. Teste salvar: Preencha campos e click SALVAR → deve atualizar
+
+Se encontrar problemas, verificar no console:
+  - [DEBUG CLICK] - Click foi detectado?
+  - [OK] Checkbox clicado - Checkbox foi identificado?
+  - [OK] Etiqueta clicada - Etiqueta foi identificada?
+  - [SALVANDO EDIÇÃO] - Função salvar foi chamada?
+
+================================================================================

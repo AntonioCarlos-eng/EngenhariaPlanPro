@@ -1,0 +1,28 @@
+TESTE RÁPIDO - Nomenclatura Expandida
+====================================
+
+1. ABRIR TERMINAL E EXECUTAR:
+
+   python test_nomenclatura_expandida.py
+
+2. ESPERADO VER:
+
+   RESULTADO: 9 sucessos, 0 falhas
+
+3. SE PASSOU - TUDO OK! ✅
+
+4. SE NÃO PASSOU:
+   
+   a) Limpar cache:
+      rm -r core\__pycache__
+      rm -r __pycache__
+   
+   b) Reexecutar:
+      python test_nomenclatura_expandida.py
+
+5. PRÓXIMO PASSO:
+   
+   Abrir app e testar com DXF:
+   python pilares_app.py
+
+====================================

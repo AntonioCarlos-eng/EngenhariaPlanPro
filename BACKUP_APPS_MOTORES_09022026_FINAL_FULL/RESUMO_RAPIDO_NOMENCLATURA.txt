@@ -1,0 +1,31 @@
+NOMENCLATURA EXPANDIDA - RESUMO RÁPIDO
+================================================================================
+
+✅ IMPLEMENTAÇÃO COMPLETA E TESTADA
+
+O que foi feito:
+- Adicionado suporte para nomenclaturas expandidas (P14-P32, P14-P32(X2), etc)
+- Função criada: _expandir_titulos_pilares() no arquivo core/pilares_motor_dual.py
+- 9 testes unitários: TODOS PASSANDO ✅
+- 100% compatível com versão anterior (sem quebras)
+
+Padrões suportados:
+✅ P1 (simples)
+✅ P14-P32 (intervalo)
+✅ P14-P32(X2) (intervalo com multiplicador)
+✅ P32(X2) (multiplicador)
+✅ P14;P32 (separado por ponto-vírgula)
+✅ P14/P32 (separado por barra)
+
+Como testar:
+1. Terminal:   python test_nomenclatura_expandida.py
+2. Demo:       python demo_nomenclatura_expandida.py
+3. App GUI:    python pilares_app.py
+
+Leia primeiro:
+- GUIA_TESTE_RAPIDO.md (instruções passo-a-passo)
+- STATUS_FINAL.md (resumo completo)
+- REFERENCIA_TECNICA.md (detalhes técnicos)
+
+================================================================================
+Status: PRONTO PARA USAR ✅

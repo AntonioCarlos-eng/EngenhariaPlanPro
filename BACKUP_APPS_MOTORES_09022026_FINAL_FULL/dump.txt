@@ -1,0 +1,1 @@
+Uso: python core\debug_tokens.py "C:\caminho\arquivo.dxf"

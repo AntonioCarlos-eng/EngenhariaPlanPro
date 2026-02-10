@@ -1,0 +1,17 @@
+{
+  "obra": "OBRA 001",
+  "pavimento": "TÉRREO",
+  "etiquetas": 1,
+  "dados": [
+    {
+      "viga": "V8",
+      "pos": "N1",
+      "bitola": 10.0,
+      "qtde": 2,
+      "comp": 2.95
+    }
+  ],
+  "medidas_customizadas": {},
+  "formas_customizadas": {},
+  "estribo_lados": {}
+}

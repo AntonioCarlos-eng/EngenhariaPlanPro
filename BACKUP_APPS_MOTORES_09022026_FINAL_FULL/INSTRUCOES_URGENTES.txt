@@ -1,0 +1,37 @@
+================================================================================
+⚠️  ATENÇÃO: FECHE E REABRA O PROGRAMA! ⚠️
+================================================================================
+
+A CORREÇÃO JÁ FOI APLICADA NO CÓDIGO!
+
+Verificação:
+✅ vigas_app.py foi modificado corretamente
+✅ 17 chamadas agora usam desenhar_etiquetas_com_selecao()
+✅ 0 chamadas do método antigo (desenhar_preview_com_pngs_gerados)
+
+PROBLEMA:
+❌ Você está vendo uma JANELA ANTIGA que foi aberta ANTES da correção!
+
+SOLUÇÃO:
+1. FECHE COMPLETAMENTE o vigas_app.py (todas as janelas)
+2. REABRA o programa:
+   python vigas_app.py
+3. Processe o DXF novamente
+4. Abra o preview
+
+AGORA SIM o preview vai mostrar suas edições!
+
+================================================================================
+💡 DICA: Python carrega o código na memória quando inicia
+        Mudanças no arquivo só têm efeito após REINICIAR o programa
+================================================================================
+
+TESTE RÁPIDO:
+1. Feche TODAS as janelas do vigas_app
+2. Execute: python vigas_app.py
+3. Processe → Etiquetas → IMPRIMIR SELECIONADAS
+4. Verifique se preview mostra suas edições
+
+Se ainda mostrar PNG fixo, me avise que vou investigar mais!
+
+================================================================================

@@ -1,0 +1,103 @@
+================================================================================
+                    NOMENCLATURA EXPANDIDA DE PILARES
+                         LEIA PRIMEIRO
+================================================================================
+
+✅ IMPLEMENTAÇÃO COMPLETA
+
+O que foi feito:
+- Adicionado suporte para nomenclaturas expandidas (P14-P32, P14-P32(X2), etc)
+- Testado: 9/9 testes unitários PASSANDO
+- Compatível: 100% backwards compatible (sem quebras)
+
+================================================================================
+COMO TESTAR RAPIDAMENTE (5 minutos)
+================================================================================
+
+OPÇÃO 1 - Terminal (Mais rápido):
+  cd c:\EngenhariaPlanPro
+  python test_nomenclatura_expandida.py
+
+Esperado: "RESULTADO: 9 sucessos, 0 falhas"
+
+OPÇÃO 2 - Demonstração Visual:
+  python demo_nomenclatura_expandida.py
+
+OPÇÃO 3 - App GUI (Testar com seus DXF):
+  python pilares_app.py
+  [Carregar DXF com P14-P32(X2) ou similar]
+  [Processar pilares]
+  [Verificar romaneio com múltiplos pilares]
+
+================================================================================
+PADRÕES SUPORTADOS
+================================================================================
+
+P1                  → [P1]              (simples)
+P14-P32             → [P14, P15, ..., P32] (intervalo)
+P14-P32(X2)         → [P14, P15, ..., P32] (intervalo com mult)
+P32(X2)             → [P32]             (multiplicador)
+P14;P32             → [P14, P32]        (separado ;)
+P14/P32             → [P14, P32]        (separado /)
+
+================================================================================
+DOCUMENTAÇÃO DISPONÍVEL
+================================================================================
+
+📖 Para entender rápido:
+   - RESUMO_RAPIDO_NOMENCLATURA.txt (este resumo)
+   - GUIA_TESTE_RAPIDO.md (instruções detalhadas)
+   - STATUS_FINAL.md (resumo completo)
+
+📚 Para detalhes técnicos:
+   - REFERENCIA_TECNICA.md (linhas de código, funções, exemplos)
+   - IMPLEMENTACAO_NOMENCLATURA_EXPANDIDA.md (arquitetura)
+   - INDICE_NOMENCLATURA_EXPANDIDA.md (índice completo)
+
+================================================================================
+ARQUIVO MODIFICADO
+================================================================================
+
+core/pilares_motor_dual.py
+  - Adicionado: _expandir_titulos_pilares() (linhas 133-185)
+  - Modificado: _motor_completo_tabelas() (integração nos dados)
+
+ZERO REGRESSÕES - Arquivos antigos funcionam EXATAMENTE como antes!
+
+================================================================================
+CHECKLIST RÁPIDO
+================================================================================
+
+[ ] 1. Executar: python test_nomenclatura_expandida.py
+[ ] 2. Verificar: Resultado 9/9 passando
+[ ] 3. Testar no App: python pilares_app.py
+[ ] 4. Carregar DXF antigo: Deve funcionar igual
+[ ] 5. Carregar DXF novo (P14-P32): Deve expandir corretamente
+
+================================================================================
+SE ALGO NÃO FUNCIONAR
+================================================================================
+
+1. Limpar cache:
+   rm -r c:\EngenhariaPlanPro\core\__pycache__
+   rm -r c:\EngenhariaPlanPro\__pycache__
+
+2. Reexecutar teste:
+   python test_nomenclatura_expandida.py
+
+3. Relatório detalhado - abrir:
+   GUIA_TESTE_RAPIDO.md
+
+================================================================================
+PRÓXIMAS AÇÕES
+================================================================================
+
+1. Executar testes
+2. Testar com seus DXF files
+3. Reportar sucesso ou problemas
+
+Status: ✅ PRONTO PARA USAR
+
+Dúvidas? Ver GUIA_TESTE_RAPIDO.md
+
+================================================================================

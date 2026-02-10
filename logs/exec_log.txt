@@ -1,0 +1,55 @@
+[17:06:01] 🚀 Iniciando EngenhariaPlanPro — AutoRun Pro
+[17:06:01] 📂 26 arquivo(s) DWG localizado(s).
+[17:06:01] ⚙️ Convertendo: 2506-RED-AMP-FUN-EX-FL01-R01 (1) - Copia.dwg
+[17:06:02] ✅ Gerado: 2506-RED-AMP-FUN-EX-FL01-R01 (1) - Copia.dxf
+[17:06:02] ⚙️ Convertendo: 2506-RED-AMP-FUN-EX-FL01-R01 (1).dwg
+[17:06:02] ✅ Gerado: 2506-RED-AMP-FUN-EX-FL01-R01 (1).dxf
+[17:06:02] ⚙️ Convertendo: 561-EST-LO-0113-LAJ-COB2-R00.dwg
+[17:06:03] ✅ Gerado: 561-EST-LO-0113-LAJ-COB2-R00.dxf
+[17:06:03] ⚙️ Convertendo: 561-EST-LO-0114-LAJ-COB1-R00.dwg
+[17:06:03] ✅ Gerado: 561-EST-LO-0114-LAJ-COB1-R00.dxf
+[17:06:03] ⚙️ Convertendo: 561-EST-LO-0206-MOD-COB1-R00.dwg
+[17:06:03] ✅ Gerado: 561-EST-LO-0206-MOD-COB1-R00.dxf
+[17:06:03] ⚙️ Convertendo: 561-EST-LO-0206-MOD-COB2-R00.dwg
+[17:06:04] ✅ Gerado: 561-EST-LO-0206-MOD-COB2-R00.dxf
+[17:06:04] ⚙️ Convertendo: 561-EST-LO-0207-MOD-COB1-R00.dwg
+[17:06:05] ✅ Gerado: 561-EST-LO-0207-MOD-COB1-R00.dxf
+[17:06:05] ⚙️ Convertendo: 561-EST-LO-0207-MOD-COB2-R00.dwg
+[17:06:05] ✅ Gerado: 561-EST-LO-0207-MOD-COB2-R00.dxf
+[17:06:05] ⚙️ Convertendo: 561-EST-LO-0303-FOR-COB1-R00.dwg
+[17:06:06] ✅ Gerado: 561-EST-LO-0303-FOR-COB1-R00.dxf
+[17:06:06] ⚙️ Convertendo: 561-EST-LO-0303-FOR-COB2-R00.dwg
+[17:06:07] ✅ Gerado: 561-EST-LO-0303-FOR-COB2-R00.dxf
+[17:06:07] ⚙️ Convertendo: ENV P 1 COTACAO BLOCO ARRAQUE E PILARES - Copia.dwg
+[17:06:08] ✅ Gerado: ENV P 1 COTACAO BLOCO ARRAQUE E PILARES - Copia.dxf
+[17:06:08] ⚙️ Convertendo: PRANCHAS PREDIO Vigas 3 laje VN3 - Copia.dwg
+[17:06:11] ✅ Gerado: PRANCHAS PREDIO Vigas 3 laje VN3 - Copia.dxf
+[17:06:11] ⚙️ Convertendo: PRANCHAS PREDIO Vigas 3 laje VN3.dwg
+[17:06:13] ✅ Gerado: PRANCHAS PREDIO Vigas 3 laje VN3.dxf
+[17:06:13] ⚙️ Convertendo: 2506-RED-AMP-FUN-EX-FL01-R01 (1) - Copia.dwg
+[17:06:13] ✅ Gerado: 2506-RED-AMP-FUN-EX-FL01-R01 (1) - Copia.dxf
+[17:06:13] ⚙️ Convertendo: 2506-RED-AMP-FUN-EX-FL01-R01 (1).dwg
+[17:06:14] ✅ Gerado: 2506-RED-AMP-FUN-EX-FL01-R01 (1).dxf
+[17:06:14] ⚙️ Convertendo: 561-EST-LO-0113-LAJ-COB2-R00.dwg
+[17:06:14] ✅ Gerado: 561-EST-LO-0113-LAJ-COB2-R00.dxf
+[17:06:14] ⚙️ Convertendo: 561-EST-LO-0114-LAJ-COB1-R00.dwg
+[17:06:15] ✅ Gerado: 561-EST-LO-0114-LAJ-COB1-R00.dxf
+[17:06:15] ⚙️ Convertendo: 561-EST-LO-0206-MOD-COB1-R00.dwg
+[17:06:15] ✅ Gerado: 561-EST-LO-0206-MOD-COB1-R00.dxf
+[17:06:15] ⚙️ Convertendo: 561-EST-LO-0206-MOD-COB2-R00.dwg
+[17:06:16] ✅ Gerado: 561-EST-LO-0206-MOD-COB2-R00.dxf
+[17:06:16] ⚙️ Convertendo: 561-EST-LO-0207-MOD-COB1-R00.dwg
+[17:06:16] ✅ Gerado: 561-EST-LO-0207-MOD-COB1-R00.dxf
+[17:06:16] ⚙️ Convertendo: 561-EST-LO-0207-MOD-COB2-R00.dwg
+[17:06:17] ✅ Gerado: 561-EST-LO-0207-MOD-COB2-R00.dxf
+[17:06:17] ⚙️ Convertendo: 561-EST-LO-0303-FOR-COB1-R00.dwg
+[17:06:18] ✅ Gerado: 561-EST-LO-0303-FOR-COB1-R00.dxf
+[17:06:18] ⚙️ Convertendo: 561-EST-LO-0303-FOR-COB2-R00.dwg
+[17:06:19] ✅ Gerado: 561-EST-LO-0303-FOR-COB2-R00.dxf
+[17:06:19] ⚙️ Convertendo: ENV P 1 COTACAO BLOCO ARRAQUE E PILARES - Copia.dwg
+[17:06:21] ✅ Gerado: ENV P 1 COTACAO BLOCO ARRAQUE E PILARES - Copia.dxf
+[17:06:21] ⚙️ Convertendo: PRANCHAS PREDIO Vigas 3 laje VN3 - Copia.dwg
+[17:06:23] ✅ Gerado: PRANCHAS PREDIO Vigas 3 laje VN3 - Copia.dxf
+[17:06:23] ⚙️ Convertendo: PRANCHAS PREDIO Vigas 3 laje VN3.dwg
+[17:06:27] ✅ Gerado: PRANCHAS PREDIO Vigas 3 laje VN3.dxf
+[17:06:27] ✅ Conversão automática finalizada com sucesso.

@@ -1,0 +1,60 @@
+import ezdxf
+from collections import Counter
+
+arquivo = r"C:\Users\orqui\OneDrive\Área de Trabalho\projetos\pilares\novos pilares.DWG"
+
+print("Lendo arquivo...")
+doc = ezdxf.readfile(arquivo)
+print("Arquivo lido!")
+
+msp = doc.modelspace()
+print("Extraindo entidades...")
+
+# Coletar textos
+textos = []
+count = 0
+for entity in msp:
+    count += 1
+    if count % 1000 == 0:
+        print(f"  Processadas {count} entidades...")
+    
+    if entity.dxftype() == 'TEXT':
+        try:
+            txt = entity.dxf.text.strip()
+            x = entity.dxf.insert.x
+            y = entity.dxf.insert.y
+            textos.append((txt, x, y))
+        except:
+            pass
+    elif entity.dxftype() == 'MTEXT':
+        try:
+            txt = entity.text.strip()
+            x = entity.dxf.insert.x
+            y = entity.dxf.insert.y
+            textos.append((txt, x, y))
+        except:
+            pass
+
+print(f"\nTotal de entidades: {count}")
+print(f"Total de textos extraídos: {len(textos)}")
+
+# Buscar cabeçalhos
+print("\nBuscando cabeçalhos...")
+cabecalhos = [t for t in textos if any(p in t[0].upper() for p in ['POS', 'BIT', 'QUANT', 'COMP'])]
+print(f"Cabeçalhos encontrados: {len(cabecalhos)}")
+
+print("\nPrimeiros 20 cabeçalhos:")
+for txt, x, y in sorted(cabecalhos, key=lambda t: -t[2])[:20]:
+    print(f"  X={x:7.2f} Y={y:7.2f} '{txt}'")
+
+# Textos na região X > 65
+print("\nTextos com X > 65 (região de tabelas):")
+textos_tabela = [t for t in textos if t[1] > 65.0]
+print(f"Total: {len(textos_tabela)}")
+
+if textos_tabela:
+    print("\nPrimeiros 30:")
+    for txt, x, y in sorted(textos_tabela, key=lambda t: -t[2])[:30]:
+        print(f"  X={x:7.2f} Y={y:7.2f} '{txt}'")
+
+print("\nConcluído!")
