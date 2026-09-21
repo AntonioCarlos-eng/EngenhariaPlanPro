@@ -1,0 +1,13 @@
+{
+  "name": "EngenhariaPlanPro",
+  "user": "ubuntu",
+  "install": "bash .cursor/install.sh",
+  "start": "bash .cursor/start.sh",
+  "terminals": [
+    {
+      "name": "license-server",
+      "command": "cd license_server && source ../.venv/bin/activate && export DATABASE_URL=\"postgresql://license:license@127.0.0.1:5432/licensedb\" SECRET_KEY=\"dev-secret\" ADMIN_KEY=\"dev-admin\" && uvicorn app:app --host 127.0.0.1 --port 8000"
+    }
+  ],
+  "ports": [8000]
+}

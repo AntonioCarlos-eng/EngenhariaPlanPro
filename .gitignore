@@ -1,0 +1,5 @@
+# Python virtual environment (created by .cursor/install.sh)
+.venv/
+
+# Local env files for the license server
+license_server/.env
